@@ -1,0 +1,19 @@
+{
+  "note": "The app reads only local files from /public/assets/images at runtime. Run npm run assets on a networked machine to refresh these images from Unsplash URLs defined in scripts/download-assets.js.",
+  "runtimeExternalImages": false,
+  "files": [
+    "hero-event.jpg",
+    "concert-1.jpg",
+    "concert-2.jpg",
+    "conference-1.jpg",
+    "conference-2.jpg",
+    "cinema-1.jpg",
+    "cinema-2.jpg",
+    "stadium-1.jpg",
+    "theater-1.jpg",
+    "theater-2.jpg",
+    "workshop-1.jpg",
+    "exhibition-1.jpg",
+    "exhibition-2.jpg"
+  ]
+}

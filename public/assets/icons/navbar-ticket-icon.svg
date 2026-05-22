@@ -1,0 +1,22 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="ticketGradient" x1="96" y1="76" x2="416" y2="436" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#22D3EE"/>
+      <stop offset="0.48" stop-color="#2DD4BF"/>
+      <stop offset="1" stop-color="#34D399"/>
+    </linearGradient>
+    <filter id="softGlow" x="42" y="42" width="428" height="428" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feColorMatrix in="blur" type="matrix" values="0 0 0 0 0.06 0 0 0 0 0.92 0 0 0 0 0.86 0 0 0 0.48 0" result="glow"/>
+      <feMerge>
+        <feMergeNode in="glow"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <g filter="url(#softGlow)" stroke="url(#ticketGradient)" stroke-width="34" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M153 89H359C391.6 89 418 115.4 418 148V187.5C418 197.2 410.2 205 400.5 205C372.3 205 349.5 227.8 349.5 256C349.5 284.2 372.3 307 400.5 307C410.2 307 418 314.8 418 324.5V364C418 396.6 391.6 423 359 423H153C120.4 423 94 396.6 94 364V324.5C94 314.8 101.8 307 111.5 307C139.7 307 162.5 284.2 162.5 256C162.5 227.8 139.7 205 111.5 205C101.8 205 94 197.2 94 187.5V148C94 115.4 120.4 89 153 89Z"/>
+    <path d="M184 210H328"/>
+    <path d="M256 210V379"/>
+  </g>
+</svg>
